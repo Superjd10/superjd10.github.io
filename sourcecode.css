@@ -1,0 +1,46 @@
+#source-code {
+  background: rgba(255,255,255,0.8);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#source-code:target {
+  display: block;
+}
+#source-code pre {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  font: 14px/1.6 Monaco, Courier, MonoSpace;
+  height: 80%;
+  margin: 50px auto;
+  overflow: auto;
+  padding: 20px;
+  width: 80%;
+}
+#source-code pre a,
+#source-code pre a span {
+  color: #00ccff !important;
+  text-decoration: none;
+}
+#x {
+  left: 10%;
+  margin-left: -41px;
+  position: absolute;
+  top: 30px;
+}
+
+/* Colors */
+.atn { color: #fabb4e; }
+.atv { color: #ffd996; }
+.com { color: white; }
+.dec { color: red; }
+.kwd { color: #ea5eff; }
+.lit { color: red; }
+.pln { color: white; }
+.pun { color: white; }
+.str { color: #61ff74; }
+.tag { color: #ffab58; }
+.typ { color: red; }
